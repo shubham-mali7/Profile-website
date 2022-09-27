@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-/* * {
-  box-sizing: border-box;
-} */
 body {
   margin: 0px;
   padding: 0px;
@@ -20,7 +17,6 @@ a {
   text-decoration: none;
   color: white;
   float: left;
-  /* text-align: center; */
   padding: 15px 40px;
   font-size: 18px;
 }
@@ -33,32 +29,58 @@ a {
   color: antiquewhite;
 }
 .container {
-  border: 2px solid rebeccapurple;
-  /* width: 400px; */
+  /* border: 2px solid rebeccapurple; */
   display: inline-block;
   position: absolute;
-  text-align: center;
   left: 15%;
-  top: 85px;
+  top: 95px;
   width: 700px;
   padding: 30px 50px;
   margin: 10px 20px;
-  background: #dd8b55 0% 0% no-repeat padding-box;
+  background: #e7922d 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   opacity: 1;
+  border-radius: 20px;
 }
 .figure {
   display: inline-block;
-  width: 264px;
+  width: 253px;
   position: absolute;
   right: 0px;
   top: 0px;
+  border-radius: 0px 20px 20px 0px;
 }
 
 .container .myintro {
   width: 380px;
   font-weight: 500;
+  font-size: 14px;
 }
+div.education {
+  display: inline-block;
+  width: 600px;
+  height: 300px;
+  /* background-color: blue; */
+  position: absolute;
+  top: 713px;
+  left: 640px;
+  color: beige;
+}
+div.content {
+  position: absolute;
+  top: 12%;
+  left: 0px;
+  font-size: 13px;
+}
+#edu {
+  left: 0px;
+  font-size: 14px;
+}
+.discription {
+  position: relative;
+  top: -15px;
+}
+
 hr {
   position: relative;
   top: 432px;
@@ -113,37 +135,156 @@ h3 {
 }
 
 .head2 {
-  color: wheat;
+  color: beige;
   background-color: black;
   padding: 30px 40px;
-  margin: 10px 10px;
   text-align: center;
-  width: 100vw;
   position: relative;
   top: 1040px;
-  right: 20px;
+  margin: 0px;
 }
-.figure2 {
-  display: inline-block;
-  width: 300px;
-  height: 200px;
-  position: absolute;
-  top: 1280px;
-  left: 65px;
+
+div.polaroid {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 25px;
+  position: relative;
+  top: 1045px;
 }
-.figure3 {
-  display: inline-block;
-  width: 300px;
-  height: 200px;
-  position: absolute;
-  top: 1280px;
-  left: 465px;
+div.box {
+  text-align: center;
+  padding: 10px 20px;
 }
-.figure4 {
+#hcj {
+  /* display: inline-block; */
+  float: right;
+  position: relative;
+  left: -40px;
+}
+#boot {
   display: inline-block;
-  width: 300px;
-  height: 200px;
+  position: relative;
+  right: -40px;
+}
+#mern {
+  display: inline-block;
+  position: relative;
+  left: 13%;
+}
+.head3 {
+  color: beige;
+  background-color: black;
+  padding: 30px 40px;
+  text-align: center;
+  position: relative;
+  margin: 0px;
+  top: 1050px;
+}
+div.hobbies {
+  /* border: 2px solid darkorange; */
+  width: 800px;
+  height: 420px;
+  display: inline-block;
+  position: relative;
+  top: 1100px;
+  left: 20%;
+  text-align: center;
+}
+.display {
+  width: 336px;
   position: absolute;
-  top: 1280px;
-  left: 865px;
+  top: 0px;
+  left: 0px;
+  border-radius: 20px 0px 0px 20px;
+}
+div.para {
+  color: white;
+  background-color: rgba(1, 89, 156, 0.39);
+  width: 60%;
+  height: 420px;
+  display: inline-block;
+  position: absolute;
+  left: 320px;
+  border-radius: 20px;
+}
+.quote {
+  font-weight: 650;
+  text-align: initial;
+  position: relative;
+  left: 5%;
+}
+div.bullets {
+  position: absolute;
+  left: 9%;
+  top: 125px;
+  text-align: initial;
+}
+.list {
+  position: relative;
+  left: -15%;
+  top: -25px;
+}
+div.location {
+  background-color: aquamarine;
+  width: 80%;
+  height: 510px;
+  display: inline-block;
+  position: absolute;
+  top: 2185px;
+  text-align: center;
+  text-align: center;
+  left: 10%;
+  background-color: black;
+}
+h3 {
+  display: inline-block;
+  position: absolute;
+  left: 100px;
+  top: 0px;
+  width: 80%;
+  color: #e58c16;
+}
+iframe {
+  margin-top: 70px;
+  width: 80%;
+  height: 400px;
+  filter: invert(100%);
+}
+div.connect {
+  /* background-color: brown; */
+  width: 40%;
+  height: 100px;
+  display: inline-block;
+  position: absolute;
+  top: 2700px;
+  left: 30%;
+  text-align: center;
+}
+a.dosti {
+  padding: 0px;
+  margin: 8px;
+  float: initial;
+  font-size: 14px;
+  color: #dae22b;
+}
+a.dosti:hover {
+  color: blue;
+}
+a.dosti:active {
+  color: greenyellow;
+}
+hr {
+  position: relative;
+  top: 1735px;
+}
+div.theend {
+  /* background-color: yellowgreen; */
+  width: 40%;
+  height: 50px;
+  display: inline-block;
+  position: absolute;
+  top: 2800px;
+  left: 30%;
+  text-align: center;
 }

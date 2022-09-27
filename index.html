@@ -7,16 +7,18 @@
     <title>Profile Webpage</title>
     <link rel="stylesheet" href="style.css" />
     <style></style>
+    <script src="https://kit.fontawesome.com/dd7bc05d54.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
     <header>
       <nav>
         <div class="topnav">
           <a class="active" href="#home">Home</a>
-          <a href="#about">About Me</a>
-          <a href="#skills">Skills</a>
-          <a href="#hobbies">Hobbies</a>
-          <a href="#contact">Contact</a>
+          <a href="#aboutme">About Me</a>
+          <a href="#myskills">Skills</a>
+          <a href="#myhobbies">Hobbies</a>
+          <a href="#contact">Connect</a>
           <!-- Note: We use href="#" for test links. In a real web site this would be URLs -->
         </div>
       </nav>
@@ -27,16 +29,17 @@
           <p class="myintro">
             Hello World! <br />
             I am SHUBHAM SANJAY MALI ,Firstly I welcome You to my profile!<br /><br />
-            Content in this container will be my name, my quote, my image and
-            educational info.
+            I am a Full Stack Developer and till now have created 7 Live Projects from Scratch.
+            <!-- Content in this container will be my name, my quote, my image and-->
             <br />
             <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-            itaque vitae est corrupti voluptas perspiciatis expedita dolor
-            consequuntur aliquam eum sint mollitia voluptatem doloremque veniam
-            tempora, corporis ipsa. Cum, commodi?
+            My Specialties include quickly learning new skills and programming
+            with a solution-oriented attitude. I have an interest in website
+            optimization and Finance Management, and I want to learn and
+            understand Stock Market in detail. So far I have HTML5, CSS and
+            JAVASCRIPT under my belt. I have started learning C++, Java, MongoDB, Express, NodeJS,
+            React, and Git. 
           </p>
-
           <img
             class="figure"
             src="images/profilepic.jpeg"
@@ -75,28 +78,93 @@
           </p>
 
           <p class="mainabout">
-            My Specialties include quickly learning new skills and programming
-            with a solution-oriented attitude. I have an interest in website
-            optimization, Sales, and Finance Management, and I want to learn and
-            understand Stock Market in detail. So far I have HTML5, CSS,
-            JAVASCRIPT under my belt. I have started learning C++, MS Excel,
-            React, and Git. Apart from this, I have also involved myself in
+            Apart from this, I have also involved myself in
             Video Editing, Story Writing, Direction, and Short Film Creation. So
             far I have worked on Adobe Premiere Pro. I have involved myself in
             this field because it helps me meet new people, and I really enjoy
             working with different people with a different mindset Ultimately, I
             will define myself as an Engineer with an arty side!
           </p>
+          <div class="education">
+            <h3 id="edu">MY EDUCATION <i class="fa-solid fa-graduation-cap"></i></h3>
+            <div class="content">
+              <h4>Bachelors of Electronics Engineering</h4>
+              <p class="discription">From Mumbai University (2017-2021)</p>
+              <h4>Higher Secondary Education</h4>
+              <p class="discription">From TatyaSaheb Kore Military Academy (2015-2017)</p>
+
+            </div>
+          </div>
         </article>
       </section>
       <section>
         <h2 class="head2">MY SKILLS</h2>
+          <div class="polaroid" id="hcj">
+            <img src="images/html css js.png" alt="html css js"  width="100%" height="200px" >
+            <div class="box">
+              <p>HTML CSS JS</p>
+            </div>
+          </div>
+          <div class="polaroid" id="boot">
+            <img src="images/bootstrap logo.png" alt="bootstrap"  width="100%" height="200px">
+            <div class="box">
+              <p>BOOTSTRAP</p>
+            </div>
+          </div>
+          <div class="polaroid" id="mern">
+            <img src="images/Mern stag img.jpg" alt="mern"  width="100%" height="200px">
+            <div class="box">
+              <p>MERN STACK</p>
+            </div>
+          </div> 
+      </section>
+      <section>
         
-          <img src="images/html css js.png" alt="html css js" class="figure2">
-          <img src="images/bootstrap logo.png" alt="bootstrap" class="figure3">
-          <img src="images/Mern stag img.jpg" alt="mern" class="figure4">
-       
-      </section>  
+          <h2 class="head3">MY HOBBIES</h2>
+        <div class="hobbies">
+          <div class="para">
+              <p class="quote">I believe hobbie is something which helps us to build a magnetic personality! </p><br>
+                <p class="list">
+                  And in my case, I have a list of them. <br>
+                  <ul type="circle">
+                    <div class="bullets">
+                      <li class="move">Travelling <i class="fa-solid fa-globe"></i></li>
+                      <li class="move">Reading <i class="fa-solid fa-book-open-reader"></i></li>
+                      <li class="move">Meditation <i class="fa-solid fa-om"></i></li>
+                      <li class="move">Listening Music <i class="fa-solid fa-music"></i></li>
+                      <li class="move">Writing <i class="fa-solid fa-pen-nib"></i></li>
+                      <li class="move">Teaching <i class="fa-solid fa-person-chalkboard"></i></li>
+                      <p class="lastline">And Yes, I am very much passionate about Coding <i class="fa-solid fa-code"></i> and call it a hobbie too because Coding is todays language of creativity, All of us desesrves a chance to become creators instead consumers of computer science! </p>
+                    </div>
+                  </ul>
+              </p>  
+            </div>  
+          <img src="images/Display_Pic.jpg" alt="my display" class="display"  >
+        </div>
+      </section>
+      <section>
+        <div class="location">
+          <h3>Reach out to me for Professional Counseling <i class="fa-solid fa-street-view"></i></h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.3919505301756!2d73.09886651407975!3d19.22174255237199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be795ed4a1de8ab%3A0xfa2fd7150953a908!2sMadhusudan%20Residency!5e0!3m2!1sen!2sin!4v1664172057978!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+      <section>
+        <div class="connect">
+          <p style="color: aliceblue">Lets Connect and Evolve <i class="fa-solid fa-handshake"></i></p>
+          <div class="links">
+            <a href="https://www.instagram.com/theshubhammali/" target="_blank" class="dosti" >Instagram <i class="fa-brands fa-instagram"></i> |</a>
+            <a href="https://twitter.com/theshubhammali" target="_blank" class="dosti">Twitter <i class="fa-brands fa-twitter"></i> |</a>
+            <a href="https://www.linkedin.com/in/shubhammali07/" target="_blank" class="dosti">LinkedIn <i class="fa-brands fa-linkedin"></i> |</a>
+            <a href="https://github.com/shubham-mali7" target="_blank" class="dosti">GitHub <i class="fa-brands fa-github"></i> |</a>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <footer>
+        <div class="theend">
+          <p style="color: white;">&copy;Sept 2022 Shubham Mali</p>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
